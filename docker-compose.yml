@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  keycloak_instance:
+    image: "quay.io/keycloak/keycloak:15.0.2"
+    ports:
+      - "8080:8080"
+    #restart: "unless-stopped"
