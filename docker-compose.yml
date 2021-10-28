@@ -13,4 +13,5 @@ services:
       - DB_DATABASE=${DB_DATABASE}
       - DB_USER=${DB_USER}
       - DB_PASSWORD=${DB_PASSWORD}
+      - KEYCLOAK_FRONTEND_URL=${KEYCLOAK_FRONTEND_URL}
     restart: "unless-stopped"
