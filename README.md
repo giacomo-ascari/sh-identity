@@ -8,5 +8,6 @@ DB_ADDR=192.168.1.1
 DB_DATABASE=keycloak
 DB_USER=keycloak
 DB_PASSWORD=password
+KEYCLOAK_FRONTEND_URL=aaaaaaa
 
 http://localhost:8080/auth/admin
